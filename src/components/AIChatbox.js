@@ -9,6 +9,7 @@ import Box from '@mui/material/Box';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@material-ui/core/TextField';
 import CircularProgress from '@mui/material/CircularProgress';
+import github_button from './25231.png';
 function AIChatbox() {
 
   // State to store the data
@@ -125,6 +126,9 @@ function AIChatbox() {
           </div>
           <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
+          <a href="https://github.com/colinwong107/GrammarGuardian" target="_blank" rel="noopener noreferrer">
+            <img src={github_button} width={50} />
+            </a>
         </Toolbar>
       </AppBar>
       <div className="App">
